@@ -8,9 +8,9 @@ h1,h2,h3,h4, .h1,.h2,.h3,.h4 {
 }
 
 :root{
-    --pink: #F25C84;
-    --lightPink: #D98BCC;
-    --green: #3D734A;
+    --pink: rgb(228, 153, 191);
+    --lightviolet: rgb(168, 132, 194);
+    --violet: rgb(144, 133, 199);
     --cream: #F2E2C4;
 }
 
@@ -22,24 +22,24 @@ h1,h2,h3,h4, .h1,.h2,.h3,.h4 {
     color: var(--pink);
 }
 
-.tx-lightPink{
-    color: var(--lightPink);
+.tx-lightviolet{
+    color: var(--lightviolet);
 }
 
-.tx-green {
-    color: var(--green);
+.tx-violet {
+    color: var(--violet);
 }
 
 .bg-pink {
     background-color: var(--pink);
 }
 
-.bg-lightPink {
-    background-color: var(--lightPink);
+.bg-lightviolet {
+    background-color: var(--lightviolet);
 }
 
-.bg-green {
-    background-color: var(--green);
+.bg-violet {
+    background-color: var(--violet);
 }
 
 .bg-cream {
