@@ -1,0 +1,47 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--cream);
+}
+
+h1,h2,h3,h4, .h1,.h2,.h3,.h4 {
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --pink: #F25C84;
+    --lightPink: #D98BCC;
+    --green: #3D734A;
+    --cream: #F2E2C4;
+}
+
+.tx-cream {
+    color: var(--cream);
+}
+
+.tx-pink {
+    color: var(--pink);
+}
+
+.tx-lightPink{
+    color: var(--lightPink);
+}
+
+.tx-green {
+    color: var(--green);
+}
+
+.bg-pink {
+    background-color: var(--pink);
+}
+
+.bg-lightPink {
+    background-color: var(--lightPink);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-cream {
+    background-color: var(--cream);
+}
