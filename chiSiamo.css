@@ -70,10 +70,12 @@ h1,h2,h3,h4, .h1,.h2,.h3,.h4 {
 
 .img-chisiamo{
     min-height: 45vh;
-    background: url(./Media/Roby.jpg);
+    background: url(./Media/Roby.png);
     background-repeat: no-repeat;
     background-position: top;
 }
+
+
 
 .WelcomeTo{
     padding: 15vh;
@@ -89,9 +91,13 @@ h1,h2,h3,h4, .h1,.h2,.h3,.h4 {
 
 .img-chisiamo2{
     min-height: 45vh;
-    background: url(./Media/image.png);
+    background: url(./Media/angelo.PNG);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.bg-neros{
+    background-color: rgb(5,5,7);
 }
 
 .bio{
