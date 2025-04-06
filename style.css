@@ -60,10 +60,12 @@ h1,h2,h3,h4, .h1,.h2,.h3,.h4 {
     left:0;
     top:0;
     padding: 0;
+    background-color: var(--cream);
 }
 
 .logo {
     height:100px;
+    transition: 1s;
 }
 
 .navbar-toggler:focus{
