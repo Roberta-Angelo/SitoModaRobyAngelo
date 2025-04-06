@@ -1,5 +1,9 @@
 *{
     font-family: "Montserrat", sans-serif;
+    
+}
+
+body {
     background-color: var(--cream);
 }
 
@@ -47,3 +51,110 @@ h1,h2,h3,h4, .h1,.h2,.h3,.h4 {
 }
 
 /* fine impostazioni di base */
+
+/* inizio navbar */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    left:0;
+    top:0;
+    padding: 0;
+}
+
+.logo {
+    height:100px;
+}
+
+.navbar-toggler:focus{
+    box-shadow: 0 0 0;
+}
+
+.DD2-nav{
+    border: none;
+}
+
+.dropdown-menu{
+    border:none;
+}
+
+.dropdown-item:hover{
+    background-color: var(--lightviolet);
+}
+
+
+
+
+/* fine navbar */
+
+/* inizio header */
+
+div > h1 {
+    padding-top: 120px;
+}
+
+.header-box-custom{
+    margin-top: 120px;
+    height:100vh;
+}
+
+.col-header-custom-lati{
+    height: 50vh;
+}
+
+#foto1, #foto3{
+    height: 50vh;
+}
+
+.col-header-custom-centro{
+    height: 100vh;
+}
+
+#foto2 {
+    height: 100vh;
+    width: 100%;
+}
+
+/* .carousel-inner {
+    height: 50vh;
+}
+
+.fa-arrow-right{
+    font-size: 100px;
+    margin-left: 250px;
+}
+
+.fotoCarousel{
+    height:400px;
+    width: 250px;
+} */
+
+.ambassador-div h2 {
+    font-size:50px;
+    font-weight: 600;
+    
+}
+
+.ambassador-div h4 {
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.ambassador-div p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.ambassador-div button {
+    border: 1px solid black;
+    width: 200px;
+}
+
+.ambassador-div button:hover {
+    border: 1px solid var(--cream);
+    background-color: var(--cream);
+    
+}
+
+/* fine header */
