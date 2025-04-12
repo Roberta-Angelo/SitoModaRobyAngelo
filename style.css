@@ -61,11 +61,13 @@ h1,h2,h3,h4, .h1,.h2,.h3,.h4 {
     top:0;
     padding: 0;
     background-color: var(--cream);
+    z-index: 1;
 }
 
 .logo {
     height:100px;
     transition: 1s;
+    margin-left: 200px;
 }
 
 .navbar-toggler:focus{
@@ -117,19 +119,70 @@ div > h1 {
     width: 100%;
 }
 
-/* .carousel-inner {
+.carouselCustom{
+    height: 50vh;
+    
+}
+
+.annuncio-box{
+    width: 100%;
     height: 50vh;
 }
 
-.fa-arrow-right{
-    font-size: 100px;
-    margin-left: 250px;
+/* button di uiverse */
+
+.cta {
+    border: none;
+    background: none;
+    cursor: pointer;
 }
 
-.fotoCarousel{
-    height:400px;
-    width: 250px;
-} */
+.cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    padding-right: 15px;
+    text-transform: uppercase;
+}
+
+.cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active svg {
+    transform: scale(0.9);
+}
+
+.hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* fine button */
 
 .ambassador-div h2 {
     font-size:50px;
