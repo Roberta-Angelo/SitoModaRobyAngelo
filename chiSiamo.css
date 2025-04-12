@@ -62,7 +62,47 @@ h1,h2,h3,h4, .h1,.h2,.h3,.h4 {
 
 
 
+/* css navbar */
+.navbar {
+    position: fixed;
+    width: 100%;
+    left:0;
+    top:0;
+    padding: 0;
+    background-color: var(--cream);
+    z-index: 10;
+}
+
+.logo {
+    height:100px;
+    transition: 1s;
+}
+
+.navbar-toggler:focus{
+    box-shadow: 0 0 0;
+}
+
+.DD2-nav{
+    border: none;
+}
+
+.dropdown-menu{
+    border:none;
+}
+
+.dropdown-item:hover{
+    background-color: var(--lightviolet);
+}
+/* fine css navbar */
+
+
+
+
 /* HEADER ABOUT US */
+
+.header-custom{
+    margin-top: 100px;
+}
 
 .aboutUS{
     min-height: 130vh ;
@@ -129,6 +169,12 @@ h1,h2,h3,h4, .h1,.h2,.h3,.h4 {
 
 .logo-intro{
     scale: 1.4;
+}
+
+.cotton{
+    background-image: url(./Media/cotton.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 /* MEDIA Q */
