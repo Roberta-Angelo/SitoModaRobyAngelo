@@ -1,6 +1,5 @@
 *{
     font-family: "Montserrat", sans-serif;
-    
 }
 
 body {
@@ -61,7 +60,7 @@ h1,h2,h3,h4, .h1,.h2,.h3,.h4 {
     top:0;
     padding: 0;
     background-color: var(--cream);
-    z-index: 1;
+    z-index: 2;
 }
 
 .logo {
@@ -86,7 +85,9 @@ h1,h2,h3,h4, .h1,.h2,.h3,.h4 {
     background-color: var(--lightviolet);
 }
 
-
+.nav-link {
+    color: black;
+}
 
 
 /* fine navbar */
@@ -99,29 +100,32 @@ div > h1 {
 
 .header-box-custom{
     margin-top: 120px;
-    height:100vh;
+    min-height:100vh;
+}
+
+.main-row-height-custom{
+    min-height: 100vh;
 }
 
 .col-header-custom-lati{
-    height: 50vh;
+    min-height: 50vh;
 }
 
 #foto1, #foto3{
-    height: 50vh;
+    min-height: 50vh;
 }
 
 .col-header-custom-centro{
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #foto2 {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
 }
 
 .carouselCustom{
-    height: 50vh;
-    
+    min-height: 50vh;
 }
 
 .annuncio-box{
@@ -129,65 +133,10 @@ div > h1 {
     height: 50vh;
 }
 
-/* button di uiverse */
-
-.cta {
-    border: none;
-    background: none;
-    cursor: pointer;
-}
-
-.cta span {
-    padding-bottom: 7px;
-    letter-spacing: 4px;
-    font-size: 14px;
-    padding-right: 15px;
-    text-transform: uppercase;
-}
-
-.cta svg {
-    transform: translateX(-8px);
-    transition: all 0.3s ease;
-}
-
-.cta:hover svg {
-    transform: translateX(0);
-}
-
-.cta:active svg {
-    transform: scale(0.9);
-}
-
-.hover-underline-animation {
-    position: relative;
-    color: black;
-    padding-bottom: 20px;
-}
-
-.hover-underline-animation:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #000000;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-
-.cta:hover .hover-underline-animation:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
-/* fine button */
 
 .ambassador-div h2 {
     font-size:50px;
     font-weight: 600;
-    
 }
 
 .ambassador-div h4 {
@@ -212,4 +161,139 @@ div > h1 {
     
 }
 
+.btn-carousel{
+    border: 1px solid black;
+    width: 300px;
+}
+
+.btn-carousel:hover {
+    border: none;
+    color: var(--violet);
+}
 /* fine header */
+
+/* inizio sezione capi estivi */
+.summercl-box-custom{
+    min-height: 30vh;
+}
+
+#section-inevidence > h2 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#section-inevidence > h4 {
+    font-size: 20px;
+    text-align: center;
+}
+/* fine sezione capi estivi */
+
+/* inizio newsletter */
+.newsletter-box-custom{
+    height: 50vh;
+}
+
+.newsletter-row-custom{
+    height:50vh;
+    
+}
+
+.newsletter-col-custom{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* From Uiverse.io by satyamchaudharydev */ 
+
+.card {
+    min-width: 380px;
+    min-height: 280px;
+    padding: 0 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.card > * {
+    margin: 0;
+}
+
+.card__title {
+    font-size: 23px;
+    font-weight: 900;
+    color: #333;
+}
+
+.card__content {
+    font-size: 13px;
+    line-height: 18px;
+    color: #333;
+}
+
+.card__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card__form input {
+    margin-top: 10px;
+    outline: 0;
+    background: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+    padding: 0.6em;
+    border-radius: 14px;
+    border: 1px solid #333;
+    color: black;
+}
+
+.card__form button {
+    border: 0;
+    background: #111;
+    color: #fff;
+    padding: 0.68em;
+    border-radius: 14px;
+    font-weight: bold;
+}
+
+.sign-up:hover {
+    opacity: 0.8;
+} 
+
+/* fine newsletter */
+
+/* inizio footer */
+.footer-custom{
+    position:fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    
+    background-color: var(--cream);
+    
+}
+/* fine footer  */
+
+
+
+
+
+
+
+/* media queries */
+@media (max-width: 768px){
+
+
+    /* newsletter */
+    .newsletter-col-custom{
+        flex-direction: column;
+        text-align: center;
+    }
+}
