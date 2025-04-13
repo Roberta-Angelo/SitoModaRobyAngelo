@@ -133,7 +133,6 @@ div > h1 {
     height: 50vh;
 }
 
-
 .ambassador-div h2 {
     font-size:50px;
     font-weight: 600;
@@ -271,21 +270,11 @@ div > h1 {
 
 /* inizio footer */
 .footer-custom{
-    position:fixed;
-    bottom: 0;
-    left:0;
     width: 100%;
-    
     background-color: var(--cream);
     
 }
 /* fine footer  */
-
-
-
-
-
-
 
 /* media queries */
 @media (max-width: 768px){
