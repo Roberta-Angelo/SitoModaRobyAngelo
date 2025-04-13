@@ -1,0 +1,116 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: var(--cream);
+}
+
+h1,h2,h3,h4, .h1,.h2,.h3,.h4 {
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --pink: rgb(228, 153, 191);
+    --lightviolet: rgb(168, 132, 194);
+    --violet: rgb(144, 133, 199);
+    --cream: #F2E2C4;
+}
+
+.tx-cream {
+    color: var(--cream);
+}
+
+.tx-pink {
+    color: var(--pink);
+}
+
+.tx-lightviolet{
+    color: var(--lightviolet);
+}
+
+.tx-violet {
+    color: var(--violet);
+}
+
+.bg-pink {
+    background-color: var(--pink);
+}
+
+.bg-lightviolet {
+    background-color: var(--lightviolet);
+}
+
+.bg-violet {
+    background-color: var(--violet);
+}
+
+.bg-cream {
+    background-color: var(--cream);
+}
+
+/* fine impostazioni di base */
+/* inizio navbar */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    left:0;
+    top:0;
+    padding: 0;
+    background-color: var(--cream);
+    z-index: 2;
+}
+
+.logo {
+    height:100px;
+    transition: 1s;
+    margin-left: 200px;
+}
+
+.navbar-toggler:focus{
+    box-shadow: 0 0 0;
+}
+
+.DD2-nav{
+    border: none;
+}
+
+.dropdown-menu{
+    border:none;
+}
+
+.dropdown-item:hover{
+    background-color: var(--lightviolet);
+}
+
+.nav-link {
+    color: black;
+}
+
+/* fine navbar */
+
+/* inizio header */
+
+.accordion-categories {
+    padding-top: 120px;
+    min-height: 10vh;
+}
+
+.header-box-custom{
+    margin-top: 120px;
+    min-height:100vh;
+}
+
+/* accordion */
+
+.accordion-header > button {
+    font-size: 16px;
+    background-color: transparent;
+}
+
+
+.accordion-item{
+    box-shadow: none;
+    border: none;
+}

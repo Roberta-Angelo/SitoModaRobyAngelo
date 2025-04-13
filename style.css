@@ -108,12 +108,12 @@ div > h1 {
 }
 
 .col-header-custom-lati{
-    min-height: 50vh;
+    height: 50vh;
 
 }
 
 #foto1, #foto3{
-    min-height: 50vh;
+    height: 50vh;
 }
 
 .col-header-custom-centro{
@@ -121,7 +121,7 @@ div > h1 {
 }
 
 #foto2 {
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
 }
 
