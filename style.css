@@ -269,13 +269,6 @@ div > h1 {
 
 /* fine newsletter */
 
-/* inizio footer */
-.footer-custom{
-    width: 100%;
-    background-color: var(--cream);
-    
-}
-/* fine footer  */
 
 /* media queries */
 @media (max-width: 768px){
